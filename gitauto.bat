@@ -6,8 +6,8 @@ set /p repo_url="Enter the URL of the GitHub repository: "
 REM Initialize a new local Git repository
 git init
 
-@REM REM Add the remote repository
-@REM git remote add origin %repo_url%
+REM Add the remote repository
+git remote add origin %repo_url%
 
 REM Perform Git operations (e.g., add, commit, push)
 echo Adding files...
